@@ -5,13 +5,17 @@
   font-family: 'Livvic', sans-serif;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('pink_rice.png')
+  background: image_url('pink_rice.png');
 }
 
 .navbar-inverse a.navbar-brand {
   font-family: 'Livvic', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   color: #1A507E;
+}
+
+.navbar-collapse .nav-item .nav-link {
+  color: #798394;
 }
 
 .hero {
@@ -59,9 +63,18 @@
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 10px;
+  margin-top: 10px;
 }
 
 .booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
   margin: 10px;
 }
 
