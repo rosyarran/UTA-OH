@@ -12,12 +12,12 @@
   <ul>
     <% current_course.sections.each do |section| %>
       <li>
-        <%= section.title %>
+        <b><%= section.title %></b>
         <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
         <ul>
           <% section.lessons.each do |lesson| %>
             <li>
-              <b><%= lesson.title %></b>
+              <i><%= lesson.title %></i>
               -
               <%= lesson.subtitle %>
             </li>
